@@ -1,0 +1,20 @@
+# Build output
+build/
+dist/
+classes/
+
+# Local dependencies
+lib/*.jar
+
+# IDE files
+.project
+.settings/
+.idea/
+*.iml
+nbbuild/
+nbdist/
+nb-actions.xml
+
+# Logs and temp
+*.log
+*.tmp
