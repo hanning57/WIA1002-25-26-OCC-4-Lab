@@ -13,7 +13,9 @@ public class MyGeneric<T> {
     
     MyGeneric(){}
     
-    MyGeneric(T element){}
+    MyGeneric(T element){
+        this.e = element;
+    }
 
     public T getE() {
         return e;

@@ -38,7 +38,7 @@ public class StorePairGeneric<T extends Comparable<T>> implements Comparable<Sto
     public boolean equals(Object obj) {
         StorePairGeneric<T> other = (StorePairGeneric<T>) obj;
         
-        if(obj == null || getClass() != obj.getClass()) {
+        if(obj == null || getClass() != obj.getClass()|| !(obj instanceof StorePairGeneric)) {
             return false;
         }
         

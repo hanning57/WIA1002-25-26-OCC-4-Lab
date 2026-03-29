@@ -41,6 +41,14 @@ class Circle implements Comparable<Circle>{
         radius = r;
     }
     
+    public double getRadius() {
+        return this.radius;
+    }
+
+    public void setRadius(double r) {
+        this.radius = r;
+    }
+
     @Override
     public int compareTo(Circle otherCircle) {
         return Double.compare(this.radius, otherCircle.radius);
