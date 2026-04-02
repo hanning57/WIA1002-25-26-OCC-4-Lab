@@ -18,3 +18,4 @@ nb-actions.xml
 # Logs and temp
 *.log
 *.tmp
+/L3/nbproject/private/

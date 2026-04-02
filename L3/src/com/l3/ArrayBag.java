@@ -73,6 +73,8 @@ public class ArrayBag<T> implements BagInterface<T> {
             bag[i] = null;
         }
         numberOfEntries = 0;
+        
+        // while(){}
     }
     
     @Override
