@@ -6,7 +6,7 @@ public class TestLinkedList {
 
         ll.addFirst('a');
         ll.addLast('e');
-        ll.add(1, 'b');
+        ll.add(1, 'b');     // Add first then continue addLast
         ll.add(2, 'c');
         ll.add(3, 'd');
 
@@ -23,6 +23,7 @@ public class TestLinkedList {
 
         System.out.println("\n=== Delete 3rd value ===");
         ll.remove(2);
+        ll.print();
 
         System.out.println("\nSecond Value index location: " + ll.indexOf('b'));
         System.out.println("Third Value index location: " + ll.indexOf('d'));
@@ -37,6 +38,11 @@ public class TestLinkedList {
         ll.set(3, 'a');
 
         System.out.println("=== Newest Current List ===");
+        ll.print();
+
+
+        ll.clear();
+         System.out.println("\n\n=== List After Clear ===");
         ll.print();
     }
 }

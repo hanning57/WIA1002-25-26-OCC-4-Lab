@@ -19,11 +19,11 @@ public class MyLinkedList<E> {
 
     public void addFirst(E e) {
         Node<E> newNode = new Node<>(e);
-        newNode.next = head;
-        head = newNode;
+        newNode.next = head;    // copy head
+        head = newNode;     // set new head
         size ++;
 
-        if(tail == null) {
+        if(tail == null) {  // If only one element exist
             tail = head;
         }
     }
@@ -48,7 +48,7 @@ public class MyLinkedList<E> {
             addLast(e);
         } else {
             Node<E> current = head;
-            for(int i = 0; i < index - 1; i ++) {
+            for(int i = 0; i < index - 1; i ++) {   // Stop 1 before the index  
                 current = current.next;
             }
             Node<E> temp = current.next;

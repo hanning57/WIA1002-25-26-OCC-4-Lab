@@ -40,7 +40,7 @@ public class SList<E> {
             head = head.next;       // Set new head
             size --;
 
-            if(head == null) {      // Check whether head = null
+            if(head == null) {      // Check whether head = null (Empty list)
                 tail = null;
             }
 
