@@ -14,6 +14,7 @@ public class Palindrome {
         System.out.println("Is " + word + " a Panlindrome? ");
         System.out.println("Ans: " + isPanlindrome(word));
 
+        sc.close();
     }
 
     public static boolean isPanlindrome(String s) {

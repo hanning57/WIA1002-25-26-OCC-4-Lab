@@ -35,7 +35,7 @@ public class StudentList<E> {
         if(size == 0) {
             System.out.println("List is empty!");
         } else if(e.equals(head.element)) {
-            Node<E> temp = head;   // Copy head to temp
+            // Node<E> temp = head;   // Copy head to temp
             head = head.next;       // Set new head
             size --;
 

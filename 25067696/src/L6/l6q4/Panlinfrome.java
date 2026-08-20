@@ -13,6 +13,7 @@ public class Panlinfrome {
 
         if (input.length() > 15) {
             System.out.println("Error: String exceeds 15 characters.");
+            sc.close();
             return;
         }
 

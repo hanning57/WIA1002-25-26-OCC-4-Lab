@@ -108,7 +108,9 @@ class ShareStock {
                 System.out.println();
                 
                 }
-            }        
+            }
+            
+            sc.close();
             
         }
     }
